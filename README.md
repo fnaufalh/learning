@@ -16,3 +16,4 @@ Belum familiar dalam menggunakan `Git` ? Yuk, coba cari tau beberapa istilah dib
 - `git commit`
 - `git merge`
 - `git checkout`
+- `git log`
