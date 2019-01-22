@@ -47,93 +47,6 @@ th, td {
     padding: 8px;
 }
 
-/* centered columns styles */
-.row-centered {
-    text-align:center;
-}
-
-/*Untuk H1*/
-h1 {
-        color: #FFF;
-}
-
-/*Untuk H5*/
-h5 {
-        color: #FFF;
-}
-
-/*Untuk li*/
-li {
-        color: #FFF;
-}
-
-/*CSS untuk CARD BOOTSTRAP*/
-HTML  CSS Result
-EDIT ON
- /* tinggi card */
-.post-body {
-    height: 215px;
-    position: relative;
-    padding: 20px 15px 0;
-}
-
-/* untuk menghilangkan padding pada .panel-heading */
-.post-thumb {
-    padding: 0
-}
-
-/* mengatur font dan link judul artikel*/
-.post-title a {
-    color: rgba(0,0,0,0.7);
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 1.5em;
-    letter-spacing: 0.01rem;
-}
-.post-title a:hover { text-decoration: none }
-
-/* posisi author selalu di bawah */
-.post-author {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    font-size: 13px;
-}
-
-.post-author .author-photo {
-    margin-right: 10px;
-    border-radius: 50%;
-}
-
-/* efek bayangan */
-.card:hover {
-    box-shadow: 0px 2px 20px rgba(0,0,0,0.2);
-}
-
-
-.col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
-}
-
-.item {
-    background-color: #09F;
-    border: 1px solid #333;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-}
-
-.content {
-    background-color: #FFF;
-    padding: 10px;
-    border: 1px solid #333;
-}
-
 table, th, td {
   border: 1px solid transparent;
 }
@@ -219,35 +132,39 @@ tr:nth-child(even){background-color: white}
         
           </div>
         </div>
+        <!-- /.col-lg-3 -->
 
 
-               <!--BUAT card-->
+               <!--card-->
+               <center>
                <div class="container">
-                
-                <div class="row justify-content-center">
-                  <div class="col-4">
-                    <div class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="Foto/Image.png" alt="Card image cap">
-                        <div class="card-body"><h4><center>Makanan Sehat</h4></center><br>
-                          <p class="card-text">&nbsp&nbsp&nbsp Objectively restore top-line alignments after alternative catalysts for change. Authoritatively whiteboard resource-leveling interfaces through prospective niches. 
-                              Energistically customize functionalized manufactured products with vertical infomediaries. Dynamically.</p>
-                        </div>
+                <div class="row">
+                  <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                      <div class="card mb">
+                            <img class="card-img-top" src="http://www.placehold.it/286x180" alt="Card image cap">
+                            <div class="card-body mb">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <button type="button" class="btn btn-primary mb">button</button>
+                            </div>
+                          </div>
                       </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="Foto/Image (1).png" alt="Card image cap">
-                        <div class="card-body"><h4><center>Makanan Lezat</h4></center><br>
-                          <p class="card-text">&nbsp&nbsp&nbsp Seamlessly underwhelm customer directed products before turnkey supply chains. Competently matrix client-based human capital vis-a-vis highly efficient opportunities. 
-                              Progressively facilitate just in time e-markets after.</p>
-                        </div>
+                      <div class="col-md-5">
+                      <div class="card mb">
+                            <img class="card-img-top" src="http://www.placehold.it/286x180" alt="Card image cap">
+                            <div class="card-body mb">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <button type="button" class="btn btn-primary mb">button</button>
+                            </div>
+                          </div>
                       </div>
-                  </div>
+                      
                 </div>
-               <br>
-
-
-                   
+              </div>
+            </center>
                     
                   <!-- table pertama-->
                     <div class="card-columns">
@@ -318,12 +235,12 @@ tr:nth-child(even){background-color: white}
     <!-- Footer -->
     <footer class="py-5 bg-primary">
       <div class="container"><table><tr><td>
-        <h1><i>Happy Coding!!!</i></h1>
+        <p class="m-0 text-center text-white"><h1><i>Happy Coding!!!</i></h1>
       </div></td>
     <td><ul>
-        <li><h5>Coffee</h5></li>
-        <li><h5>Tea</h5></li>
-        <li><h5>Milk</h5></li>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
       </ul></td></tr></table>
       <!-- /.container -->
     </footer>
