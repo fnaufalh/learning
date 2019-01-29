@@ -1,0 +1,321 @@
+/*NAVBAR*/
+/*TULISAN DI NAVBAR*/
+.aa {
+
+font-style: normal;
+line-height: normal;
+font-size: 16px;
+
+color: #FFFFFF;}
+
+.aaa {
+
+    font-style: normal;
+    line-height: normal;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    
+    color: #FFFFFF;}
+
+@media (max-width: 600px) {
+    .navbar2 .navbar-bottom .pull-left,
+	.fnavbar2 .navbar-bottom .pull-right {
+		float: none !important;
+		width: 100%;
+		padding: 10px;
+		text-align: center;
+	}
+}
+
+/*TABLE*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: px solid transparent;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+table, th, td {
+  border: 1px solid transparent;
+}
+tr:nth-child(even){background-color: transparent}
+
+/*IMAGE*/
+    img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+    
+}
+
+.img2 {
+    width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-top: 55px;
+  
+
+  display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+ 
+  }
+
+/*CARD MAKANAN*/
+/*TULISAN DI CARD MAKANAN*/
+.tulisancard{
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+text-indent: 25px;
+
+color: #696969;
+}
+
+/*JUDUL CARD MAKANAN*/
+.judulcard{
+  
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 28px;
+    text-align: center;
+    color: #696969;
+}
+  
+.hr{
+    width: 90%;
+    height: 0px;
+    left: 231px;
+    top: 660px;
+    border: 3px solid #F9F9F9;
+}
+
+.card1 {
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 16px; 
+  }
+
+
+/*BOX 1 DAN 2*/
+div.box1{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    height: 300px;
+    background:#E9F6FF;
+    border:solid 6px #E9F6FF;
+    position: center;
+}
+
+div.box2{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    height: 300px;
+    background:#F5F5F5;
+    border:solid 6px #F5F5F5;
+    position: center;
+}
+
+.tulisan{
+    font-size: 16px;
+    padding-top: 35px
+}
+
+
+  /*SEMUA TENTANG FOOTER*/
+  /*FOOTER*/
+  .footer2 a {
+    color: #DDD;
+}
+
+.footer2 a:hover,
+.footer2 a:focus,
+.footer2 a:active {
+    color: #FFF;
+}
+
+.footer2 .footer {
+    background-color: #4BABF1;
+    padding: 35px 0;
+    margin-top: 1.5rem;
+}
+
+.footer2 .footer nav h3 {
+    width: 1280px;
+    height: 200px;
+    left: 0px;
+    top: 1624px;
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 1em 0;
+}
+
+.footer2 .footer nav h3 span {
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.footer2 .footer nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 4px 0;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    .footer2 .footer-bottom .pull-left,
+	.footer2 .footer-bottom .pull-right {
+		float: none !important;
+		width: 100%;
+		padding: 10px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 700px) {
+    .footer2 .footer-bottom .pull-left,
+	.footer2 .footer-bottom .pull-right {
+		float: none !important;
+		width: 100%;
+		padding: 15px;
+		text-align: center;
+	}
+}
+
+    /*FOOTER KODING*/
+            div.a{
+            font-style: italic;
+            font-weight: 500;
+            height: 100%;
+            line-height: normal;
+            
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+            
+            }
+            
+            @media screen and (min-width: 601px) {
+                div.a {
+                    font-size: 96px;
+                }
+              }
+              
+              @media screen and (max-width: 600px) {
+                div.a {
+                  font-size: 40px;
+                }
+              }
+
+            /*FOOTER UL*/
+            div.b {
+                font-style: italic;
+                
+                
+                width: 106px;
+                height: 198px;
+                left: 1004px;
+                top: 1426px;
+
+                font-weight: 500;
+                height: 100%;
+                width: 100%;
+                line-height: normal;
+                font-size: 16px;
+                color: #FFFFFF;
+
+            }
+
+            @media screen and (min-width: 343px) {
+                div.b {
+                    font-size: 16px;;
+                }
+              }
+              
+              @media screen and (max-width: 300px) {
+                div.b {
+                  font-size: 8px;
+                }
+              }
+              @media screen and (max-width: 600px) {
+                div.b {
+                  font-size: 16px;
+                }
+              }
+              
+              
+              /*LANJUTAN UL*/
+              li {
+                background-color: none;
+                color: none;
+                
+                
+            }
+
+/*uji coba*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .fluid-container {
+    display: flex;
+    background: #5B9BD5;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  span {
+    flex: 0 0 calc(33.33% - 20px);
+    background: #F8CBAD;
+    min-height: 50px;
+    margin: 10px;
+  }
+  @media(max-width: 768px) {
+    span {
+      flex: 0 0 calc(100% - 20px);
+    }
+  }

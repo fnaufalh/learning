@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
+  --primary: #4BABF1;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -473,7 +473,7 @@ mark,
 
 .blockquote-footer {
   display: block;
-  font-size: 80%;
+  font-size: 100%;
   color: #6c757d;
 }
 
@@ -621,6 +621,9 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 5px;
+  
+ 
 }
 
 .col {
@@ -1748,7 +1751,7 @@ pre code {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 576.120px) {
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -3929,6 +3932,7 @@ input[type="button"].btn-block {
   position: relative;
   display: -ms-flexbox;
   display: flex;
+  
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -ms-flex-align: center;
@@ -4027,7 +4031,7 @@ input[type="button"].btn-block {
   background-size: 100% 100%;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 575.100px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
@@ -4035,7 +4039,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 575.100px) {
   .navbar-expand-sm {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -4347,7 +4351,17 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  flex: 0 1 90%;
+  
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+   
 
 .card > hr {
   margin-right: 0;
@@ -4409,7 +4423,7 @@ input[type="button"].btn-block {
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 2px solid rgba(0, 0, 0, 0.125);
 }
 
 .card-footer:last-child {
@@ -4444,12 +4458,16 @@ input[type="button"].btn-block {
 
 .card-img-top {
   width: 100%;
+    height: 30vw;
+    object-fit: cover;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }
 
 .card-img-bottom {
   width: 100%;
+  height: 30vw;
+    object-fit: cover;
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
@@ -4465,12 +4483,12 @@ input[type="button"].btn-block {
   margin-bottom: 15px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 753px) {
   .card-deck {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .card-deck .card {
     display: -ms-flexbox;
@@ -6032,6 +6050,10 @@ button.close {
   background-color: #007bff !important;
 }
 
+.bg-primary2 {
+  background-color: #4BABF1 !important;
+}
+
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
@@ -6544,6 +6566,7 @@ button.bg-dark:focus {
 .justify-content-center {
   -ms-flex-pack: center !important;
   justify-content: center !important;
+  padding-top: 20px;
 }
 
 .justify-content-between {
@@ -7674,6 +7697,36 @@ button.bg-dark:focus {
 .px-5 {
   padding-left: 3rem !important;
 }
+
+/*py footer*/
+.p-6 {
+  padding: 2rem !important;
+}
+
+.pt-6,
+.py-6 {
+  padding-top: 2rem !important;
+}
+
+.pr-6,
+.px-6 {
+  padding-right: 2rem !important;
+}
+
+.pb-6 {
+  padding-bottom: 2rem !important;
+}
+
+.py-6 {
+  padding-bottom: 2rem !important;
+}
+
+.pl-6,
+.px-6 {
+  padding-left: 2rem !important;
+}
+
+/*selesai*/
 
 .m-auto {
   margin: auto !important;
