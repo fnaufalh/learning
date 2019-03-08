@@ -1,6 +1,11 @@
 # Learning
 Diperuntukkan untuk belajar bersama bagi teman-teman yang membutuhkan
 
+#Referensi Belajar
+- http://rogerdudler.github.io/git-guide/index.id.html
+- https://github.com/petanikode/belajar-git
+Note: Thanks to them :)
+
 # Cara Main Secara Umum
 - Tentukan ingin mempelajari apa
 - Membuat `branch` baru dengan nama yang sesuai sebagai `parent branch`, dan lakukan `checkout` ke `parent branch` dengan nama yang berbeda untuk membuat `child branch` 
