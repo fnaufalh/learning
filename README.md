@@ -1,7 +1,7 @@
 # Learning
 Diperuntukkan untuk belajar bersama bagi teman-teman yang membutuhkan
 
-# Referensi Belajar GIT
+# Referensi Belajar `Git`
 - http://rogerdudler.github.io/git-guide/index.id.html
 - https://github.com/petanikode/belajar-git
 
