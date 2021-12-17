@@ -1,0 +1,68 @@
+
+
+/* Jumbotron */
+
+.jumbotron{
+    padding-top : 6rem;
+    background-color: #406882;
+    color: white;
+}
+
+/* Akhir Jumbotron */
+
+
+/* Interest */
+#interest{
+    background-color: #406882;
+}
+
+/* Akhir Interest */
+
+
+/* form1 */
+
+.form1{
+    background-color:  #406882;
+    color: #fff;
+}
+
+/* Akhir form1 */
+
+/* form2 */
+
+.form2{
+    background-color:  #406882;
+    color: #fff;
+}
+
+/* Akhir form1 */
+
+
+/* icon-contact */
+
+.icon-contact{
+    list-style: none;
+}
+
+.icon-contact img{
+    margin-bottom: 50px;
+}
+
+.icon-contact h3{
+    float:right;
+}
+
+.icon-contact h3 .github{
+    font-size: 3em;
+}
+
+/* Akhir icon-contact */
+
+
+/* awal  section */
+
+section{
+    padding-top:6rem;
+}
+
+/* akhir section */
